@@ -1,0 +1,107 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+} */
+
+.footer {
+    padding: 30px 40px;
+    width: 100%;
+    background: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.footer .footer-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-container .footer-about {
+    max-width: 30%;
+}
+
+.footer .footer-container .footer-about .footer-logo {
+    cursor: pointer;
+}
+
+.footer .footer-container .footer-about .footer-detail p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.footer .footer-container .footer-about .footer-detail .footer-icon {
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer .footer-container .footer-about .footer-detail .footer-icon li {
+    margin-left: 20px;
+    list-style: none;
+    padding: 10px 10px;
+    box-shadow: #000c0e 2px 2px 2.5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer .footer-container .footer-about .footer-detail .footer-icon li:hover {
+    background: #6ab8f5;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.footer .footer-container .footer-account {
+    margin-right: 90px;
+    margin-top: 30px;
+}
+
+.footer .footer-container .footer-account h3 {
+    font-size: 32px;
+}
+
+.footer .footer-container .footer-account ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.footer .footer-container .footer-account ul li {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer .footer-container .footer-account ul li:hover {
+    color: #6ab8f5;
+}
+
+.footer .footer-container .footer-page {
+    margin-right: 90px;
+    margin-top: 30px;
+}
+
+.footer .footer-container .footer-page h3 {
+    font-size: 32px;
+}
+
+.footer .footer-container .footer-page ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.footer .footer-container .footer-page ul li {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer .footer-container .footer-page ul li:hover {
+    color: #6ab8f5;
+}

@@ -1,0 +1,13 @@
+.typePage {
+    display: flex;
+    width: 100%;
+}
+.bodyTypePage {
+    flex: 1;
+    padding: 0px 5px;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
