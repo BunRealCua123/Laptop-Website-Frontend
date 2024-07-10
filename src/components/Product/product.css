@@ -1,0 +1,86 @@
+.product {
+    display: flex;
+    flex-direction: column;
+}
+.product .mainProduct {
+    margin-left: 10px;
+    /* flex-direction: row; */
+    width: 100%;
+    min-height: 350px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.product .mainProduct .infoProduct {
+    width: 30%;
+    /* border-radius: 10px; */
+    height: 350px;
+    /* background-color: rgba(24, 25, 35, 0.08); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product .mainProduct .priceProduct {
+    width: 40%;
+    margin: 10px 10px;
+    font-weight: 700;
+
+    /* background-color: blueviolet; */
+}
+.product .mainProduct .guarantee {
+    width: 27%;
+    background-color: white;
+    /* border: 1px solid rgba(24, 25, 35, 0.2); */
+    /* border-radius: 10px; */
+}
+.yentammuahang {
+    height: 270px;
+    border: 1px solid rgba(24, 25, 35, 0.2);
+}
+.chinhsach {
+    border: 1px solid rgba(24, 25, 35, 0.2);
+}
+.buttonCart {
+}
+.parameter {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    /* width: 160px; */
+    margin-bottom: 0px;
+    background-color: red;
+    font-weight: 700;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.tableParameter {
+    background-color: white;
+    /* rgb(239, 239, 241) */
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    padding: 10px;
+    width: 1000px;
+    box-shadow: rgba(156, 153, 153, 0.489) 0px 2px 12px;
+}
+.description {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    width: 160px;
+
+    background-color: red;
+    font-weight: 700;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.bodyDescription {
+    background-color: white;
+    font-size: 18px;
+    /* rgb(239, 239, 241) */
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    padding: 10px;
+    width: 1000px;
+    box-shadow: rgba(156, 153, 153, 0.489) 0px 2px 12px;
+}

@@ -1,0 +1,40 @@
+.cardProduct {
+    margin: 5px 1px;
+    width: 230px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+    &:hover {
+        box-shadow: rgba(102, 100, 100, 0.489) 0px 2px 12px;
+    }
+}
+.nameCard {
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+    height: 60px;
+    font-size: 17px;
+    color: black;
+    font-weight: 700;
+    margin: 10px 0px 20px 0px;
+    &:hover {
+        color: rgb(235, 114, 22);
+    }
+}
+.priceCard {
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    /* width: 70%; */
+    /* height: 30px; */
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #f01730;
+    /* border: red solid 1px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}

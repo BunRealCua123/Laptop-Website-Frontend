@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #ec3339;
+    height: 60px;
+    width: 100%;
+}
+.navbar .wrapperNav {
+    padding: 0;
+    width: 1200px;
+    height: 100%;
+
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.navbar .wrapperNav .listTypeNav,
+.listNav,
+.saleNav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar .wrapperNav .listTypeNav {
+    position: relative;
+    min-width: 170px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 20px;
+    &::before {
+        content: '';
+        display: block;
+        box-shadow: -3px 0px 3px 0px #b30e10;
+        width: 5px;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        height: 100%;
+    }
+    &::after {
+        content: '';
+        display: block;
+        box-shadow: 3px 0px 3px 0px #b30e10;
+        width: 5px;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        height: 100%;
+    }
+}
+.typeNav {
+    width: 220px;
+}
+.navbar .wrapperNav .listTypeNav .iconBar {
+    padding: 0px 10px;
+}
+.navbar .wrapperNav .listNav {
+    min-width: 700px;
+}
+.navbar .wrapperNav .listNav .linkNav {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.navbar .wrapperNav .saleNav {
+    min-width: 100px;
+}

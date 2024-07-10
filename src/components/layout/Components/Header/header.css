@@ -1,0 +1,116 @@
+.wrapper {
+    height: 65px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.wrapper .inner {
+    height: 100%;
+    width: 1200px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper .inner .search {
+    position: relative;
+    width: 450px;
+    height: 20px;
+    padding: 12px 16px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid transparent;
+    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: 92px;
+    input {
+        flex: 1;
+        color: black;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+    &:focus-within {
+        border-color: rgba(22, 24, 35, 0.2);
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        right: 50px;
+        width: 1px;
+        top: 9px;
+        height: 28px;
+        background-color: rgba(22, 24, 35, 0.2);
+    }
+}
+.searchResult {
+    width: 460px;
+    /* text-align: center; */
+}
+.buttonSearch {
+    width: 50px;
+    height: 212%;
+    border: none;
+    outline: none;
+    color: rgba(22, 24, 35, 0.5);
+    border-bottom-right-radius: 92px;
+    border-top-right-radius: 92px;
+    font-size: 1.2rem;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+.linkSearch {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(22, 24, 35, 0.5);
+    &:hover {
+        color: rgba(22, 24, 35, 0.9);
+    }
+}
+input:not(:placeholder-shown) ~ .linkSearch {
+    color: rgba(22, 24, 35, 0.9);
+}
+.wrapper .inner .search .loading,
+.buttonClose {
+    position: absolute;
+    right: 57px;
+    color: rgba(22, 24, 35, 0.5);
+}
+.wrapper .inner .search .buttonClose {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.wrapper .inner .search .loading {
+    margin-right: 7px;
+}
+.wrapper .inner .action {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wrapper .inner .action .LoginButton {
+    min-width: 50px;
+    padding: 9px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #ef4f6f;
+    &:active {
+        background-color: #f1718b;
+    }
+}
+.wrapper .inner .action .cartButton {
+    width: 40px;
+    padding: 9px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
